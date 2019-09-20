@@ -1,0 +1,115 @@
+body {
+  padding: 10px 50px 50px;
+  font: 18px "Garamond", serif;
+  background-image: url("https://images8.alphacoders.com/411/thumb-1920-411522.jpg");
+  background-size: cover;
+  margin: auto;
+  max-width: 800px;
+}
+
+a {
+  color: rgb(246, 250, 250);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+  a:hover {
+    color:rgb(240, 64, 102);
+  }
+
+a.button, input[type=submit] {
+  color: rgb(240, 64, 102);
+  background: black;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px 14px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form a.button, input[type=submit] {
+  margin-left: 140px;
+  transition: 0.4s;
+}
+
+input[type=submit] {
+  border: 0;
+}
+
+  a.button:hover, input[type=submit]:hover {
+    background-color: transparent;
+  }
+
+p {
+  margin: 20px auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+}
+
+h2 {
+  border-top: 2px solid #e7e7e7;
+  padding-top: 20px;
+}
+
+th {
+  border-bottom: 2px solid #D8B493;
+  text-align: left;
+  padding: 5px 20px 5px 10px;
+  background-color: black;
+  color: rgb(240, 64, 102);
+}
+
+tr {
+  min-height: 50px;
+}
+
+tr:nth-child(2n) {
+  background: transparent;
+}
+
+td {
+  font-weight: bold;
+  padding: 5px 20px 5px 10px;
+  background-color: black;
+  color:rgb(248, 238, 240);
+}
+
+label {
+  font-weight: bold;
+  min-width: 130px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+input {
+  padding: 10px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 2px;
+  border-color: #E7E7E7;
+  transition: 0.4s;
+}
+
+input[type=text] {
+  margin-left: 7px;
+  width: 300px;
+}
+
+.error {
+  color: rgb(236, 15, 15);
+}
+.pagination{
+  margin-top: 50px;
+  margin-right: auto;
+  width: 200px;
+}
+.pagination a.button {
+  margin: 5px;
+  padding: 5px;
+}

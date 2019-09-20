@@ -1,0 +1,55 @@
+//- new book
+extends layout
+
+block content
+  h1 New Book
+
+  form(method='post')
+    if errors && errors.length > 0
+        ul.error
+          each error in errors
+            li= error.message
+
+    div.form-group
+      label(for='title') Title:
+      input(id='title', type='text', name='title' value=book.title)
+    p
+    div.form-group
+      label(for='author') Author:
+      input(id='author', type='text', name='author' value=book.author)
+    p
+    div.form-group
+      label(for='genre') Genre:
+      input(id='genre', type='text', name='genre' value=book.genre)
+    p
+    div.form-group
+      label(for='year') Year:
+      input(id='year', type='text', name='year' value=book.year)
+    p
+      input(type="submit" value="Create New Book")    
+    p
+      a.button(href="/books") Cancel
+//- extends layout
+
+//- block content
+//-   h1 Create Book
+
+//-   include form-errors
+
+//-   form(action='/books/new', method='post')
+//-     p
+//-       label(for="title") Title
+//-       input(name="title" type="text" id="title")
+//-     p
+//-       label(for="author") Author
+//-       input(name="author" type="text" id="author")
+//-     p
+//-       label(for="genre") Genre
+//-       input(name="genre" type="text" id="genre")
+//-     p
+//-       label(for="year") Year
+//-       input(name="year" type="text" id="year")
+//-     p
+//-       input(type="submit" value="Create New Book")
+//-     p
+//-       a(class="button" href="/") Cancel
