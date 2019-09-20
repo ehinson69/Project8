@@ -1,7 +1,7 @@
 body {
   padding: 10px 50px 50px;
   font: 18px "Garamond", serif;
-  background-image: url("https://images8.alphacoders.com/411/thumb-1920-411522.jpg");
+  background-image: url("https://www.brickunderground.com/sites/default/files/styles/blog_primary_image/public/blog/images/iStock-910031442.jpg");
   background-size: cover;
   margin: auto;
   max-width: 800px;
@@ -14,11 +14,12 @@ a {
   transition: 0.4s;
 }
 
-  a:hover {
-    color:rgb(240, 64, 102);
-  }
+a:hover {
+  color: rgb(240, 64, 102);
+}
 
-a.button, input[type=submit] {
+a.button,
+input[type="submit"] {
   color: rgb(240, 64, 102);
   background: black;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -28,18 +29,20 @@ a.button, input[type=submit] {
   cursor: pointer;
 }
 
-form a.button, input[type=submit] {
+form a.button,
+input[type="submit"] {
   margin-left: 140px;
   transition: 0.4s;
 }
 
-input[type=submit] {
+input[type="submit"] {
   border: 0;
 }
 
-  a.button:hover, input[type=submit]:hover {
-    background-color: transparent;
-  }
+a.button:hover,
+input[type="submit"]:hover {
+  background-color: transparent;
+}
 
 p {
   margin: 20px auto;
@@ -58,7 +61,7 @@ h2 {
 }
 
 th {
-  border-bottom: 2px solid #D8B493;
+  border-bottom: 2px solid #d8b493;
   text-align: left;
   padding: 5px 20px 5px 10px;
   background-color: black;
@@ -77,7 +80,7 @@ td {
   font-weight: bold;
   padding: 5px 20px 5px 10px;
   background-color: black;
-  color:rgb(248, 238, 240);
+  color: rgb(248, 238, 240);
 }
 
 label {
@@ -92,11 +95,11 @@ input {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 14px;
   border-radius: 2px;
-  border-color: #E7E7E7;
+  border-color: #e7e7e7;
   transition: 0.4s;
 }
 
-input[type=text] {
+input[type="text"] {
   margin-left: 7px;
   width: 300px;
 }
@@ -104,7 +107,7 @@ input[type=text] {
 .error {
   color: rgb(236, 15, 15);
 }
-.pagination{
+.pagination {
   margin-top: 50px;
   margin-right: auto;
   width: 200px;

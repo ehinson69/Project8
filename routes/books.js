@@ -25,7 +25,7 @@ router.get("/", async (req, res, next) => {
       activePage
     );
     res.locals.books = books;
-    res.locals.title = "Jasmine's Book Library";
+    res.locals.title = "Elizabeth's Book Library";
     res.locals.pages = numPages;
     res.locals.query = query;
     res.locals.activePage = activePage;
